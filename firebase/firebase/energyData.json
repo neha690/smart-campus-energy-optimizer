@@ -1,0 +1,12 @@
+{
+  "Lab3": {
+    "timestamp": "2026-01-07T10:00:00",
+    "current_usage_watts": 750,
+    "optimal_usage_watts": 450
+  },
+  "Library": {
+    "timestamp": "2026-01-07T10:00:00",
+    "current_usage_watts": 300,
+    "optimal_usage_watts": 200
+  }
+}
