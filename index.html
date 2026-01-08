@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Smart Campus Energy Optimizer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Leaflet Map CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Smart Campus Energy Optimizer</h1>
+    <p>AI-powered solution for sustainable campuses</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#dashboard">Dashboard</a>
+    <a href="#map">Campus Map</a>
+    <a href="#features">Features</a>
+</nav>
+
+<section id="about">
+    <h2>Problem Statement</h2>
+    <p>
+        Large educational campuses consume massive electricity daily.
+        Manual monitoring leads to energy wastage, high bills, and increased carbon footprint.
+    </p>
+</section>
+
+<section id="dashboard">
+    <h2>Energy Dashboard</h2>
+
+    <div class="cards">
+        <div class="card">
+            <h3>Total Consumption</h3>
+            <p>1240 kWh</p>
+        </div>
+
+        <div class="card">
+            <h3>Wasted Energy</h3>
+            <p>320 kWh</p>
+        </div>
+
+        <div class="card">
+            <h3>Carbon Reduced</h3>
+            <p>18%</p>
+        </div>
+    </div>
+</section>
+
+<section id="map">
+    <h2>Campus Energy Map</h2>
+    <p>Live energy consumption by campus location</p>
+
+    <div id="campusMap"></div>
+</section>
+
+<section id="features">
+    <h2>AI-Powered Features</h2>
+    <ul>
+        <li>⚡ Real-time energy monitoring</li>
+        <li>📊 AI-based power usage prediction</li>
+        <li>🔔 Smart notifications for excess usage</li>
+        <li>🌱 Sustainability & cost optimization</li>
+    </ul>
+</section>
+
+<footer>
+    <p>© 2026 Smart Campus Energy Optimizer</p>
+</footer>
+
+<!-- Leaflet Map JS -->
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
